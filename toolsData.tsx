@@ -318,904 +318,949 @@ export const categories = [
 
 export const tools: Tool[] = [
   {
-    id: 'ai-assistant-tool1',
-    name: 'AI Assistants Tool 1',
-    description: 'An example AI tool for ai assistants purposes.',
+    id: 'google-assistant',
+    name: 'Google Assistant',
+    description: 'A widely used virtual assistant integrated across devices and services, capable of completing tasks, providing information, and controlling smart home devices.',
     category: 'ai-assistant',
-    url: 'https://example.com/ai-assistant-tool1',
-    pricing: 'freemium',
-    keywords: ['ai assistants', 'ai', 'tool', 'ai-assistant']
+    url: 'https://assistant.google.com/',
+    pricing: 'free',
+    keywords: ['virtual assistant', 'voice assistant', 'smart assistant', 'google', 'productivity']
   },
   {
-    id: 'ai-assistant-tool2',
-    name: 'AI Assistants Tool 2',
-    description: 'An example AI tool for ai assistants purposes.',
+    id: 'amazon-alexa',
+    name: 'Amazon Alexa',
+    description: 'Amazon\'s cloud-based voice service available on millions of devices, enabling voice interaction for various tasks and smart home control.',
     category: 'ai-assistant',
-    url: 'https://example.com/ai-assistant-tool2',
-    pricing: 'freemium',
-    keywords: ['ai assistants', 'ai', 'tool', 'ai-assistant']
+    url: 'https://developer.amazon.com/en-US/alexa',
+    pricing: 'free',
+    keywords: ['virtual assistant', 'voice assistant', 'smart assistant', 'amazon', 'alexa skills']
   },
   {
-    id: 'ai-assistant-tool3',
-    name: 'AI Assistants Tool 3',
-    description: 'An example AI tool for ai assistants purposes.',
+    id: 'siri',
+    name: 'Siri',
+    description: 'Apple\'s virtual assistant available across Apple devices, using voice queries and a natural-language user interface to operate the phone.',
     category: 'ai-assistant',
-    url: 'https://example.com/ai-assistant-tool3',
-    pricing: 'freemium',
-    keywords: ['ai assistants', 'ai', 'tool', 'ai-assistant']
+    url: 'https://www.apple.com/siri/',
+    pricing: 'free',
+    keywords: ['virtual assistant', 'voice assistant', 'ios', 'apple', 'productivity']
   },
   {
-    id: 'ai-assistant-tool4',
-    name: 'AI Assistants Tool 4',
-    description: 'An example AI tool for ai assistants purposes.',
+    id: 'microsoft-copilot',
+    name: 'Microsoft Copilot',
+    description: 'An AI-powered assistant integrated into Microsoft 365 and other services to help users with tasks like writing, coding, summarizing, and data analysis.',
     category: 'ai-assistant',
-    url: 'https://example.com/ai-assistant-tool4',
+    url: 'https://copilot.microsoft.com/',
     pricing: 'freemium',
-    keywords: ['ai assistants', 'ai', 'tool', 'ai-assistant']
+    keywords: ['ai assistant', 'productivity', 'microsoft 365', 'writing assistant', 'coding assistant']
   },
   {
-    id: 'ai-assistant-tool5',
-    name: 'AI Assistants Tool 5',
-    description: 'An example AI tool for ai assistants purposes.',
+    id: 'otter-ai',
+    name: 'Otter.ai',
+    description: 'An AI meeting assistant that transcribes conversations in real-time, generates summaries, and captures action items for meetings.',
     category: 'ai-assistant',
-    url: 'https://example.com/ai-assistant-tool5',
+    url: 'https://otter.ai/',
     pricing: 'freemium',
-    keywords: ['ai assistants', 'ai', 'tool', 'ai-assistant']
+    keywords: ['meeting assistant', 'transcription', 'voice notes', 'productivity', 'ai note-taking']
   },
   {
-    id: 'content-creation-tool1',
-    name: 'Content Creation Tool 1',
-    description: 'An example AI tool for content creation purposes.',
+    id: 'jasper',
+    name: 'Jasper',
+    description: 'An AI content platform designed to help marketing teams create a wide range of content formats, from blog posts to social media copy.',
     category: 'content-creation',
-    url: 'https://example.com/content-creation-tool1',
-    pricing: 'freemium',
-    keywords: ['content creation', 'ai', 'tool', 'content-creation']
+    url: 'https://www.jasper.ai/',
+    pricing: 'subscription',
+    keywords: ['ai writing assistant', 'content generation', 'copywriting', 'marketing content', 'ai platform']
   },
   {
-    id: 'content-creation-tool2',
-    name: 'Content Creation Tool 2',
-    description: 'An example AI tool for content creation purposes.',
+    id: 'copy-ai',
+    name: 'Copy.ai',
+    description: 'An AI-powered copy generation tool that helps businesses create marketing copy, social media content, and other written materials quickly.',
     category: 'content-creation',
-    url: 'https://example.com/content-creation-tool2',
+    url: 'https://www.copy.ai/',
     pricing: 'freemium',
-    keywords: ['content creation', 'ai', 'tool', 'content-creation']
+    keywords: ['ai copywriting', 'content generation', 'marketing copy', 'social media content', 'ai writer']
   },
   {
-    id: 'content-creation-tool3',
-    name: 'Content Creation Tool 3',
-    description: 'An example AI tool for content creation purposes.',
+    id: 'writesonic',
+    name: 'Writesonic',
+    description: 'An AI writing assistant that generates high-quality articles, blog posts, landing pages, and other content using AI.',
     category: 'content-creation',
-    url: 'https://example.com/content-creation-tool3',
+    url: 'https://writesonic.com/',
     pricing: 'freemium',
-    keywords: ['content creation', 'ai', 'tool', 'content-creation']
+    keywords: ['ai writer', 'article generator', 'blog post generator', 'content marketing', 'ai tools']
   },
   {
-    id: 'content-creation-tool4',
-    name: 'Content Creation Tool 4',
-    description: 'An example AI tool for content creation purposes.',
+    id: 'surfer-seo',
+    name: 'Surfer SEO',
+    description: 'An SEO content optimization tool that uses AI to help create content that is optimized for search engines, focusing on keywords and structure.',
     category: 'content-creation',
-    url: 'https://example.com/content-creation-tool4',
-    pricing: 'freemium',
-    keywords: ['content creation', 'ai', 'tool', 'content-creation']
+    url: 'https://surferseo.com/',
+    pricing: 'subscription',
+    keywords: ['seo content', 'content optimization', 'ai writing', 'keyword research', 'serp analysis']
   },
   {
-    id: 'content-creation-tool5',
-    name: 'Content Creation Tool 5',
-    description: 'An example AI tool for content creation purposes.',
+    id: 'canva',
+    name: 'Canva',
+    description: 'A graphic design platform with AI-powered features for creating visuals, including AI image generation and design suggestions, suitable for content creation.',
     category: 'content-creation',
-    url: 'https://example.com/content-creation-tool5',
+    url: 'https://www.canva.com/',
     pricing: 'freemium',
-    keywords: ['content creation', 'ai', 'tool', 'content-creation']
+    keywords: ['graphic design', 'ai image generator', 'visual content', 'design tool', 'social media graphics']
   },
   {
-    id: 'seo-tool1',
-    name: 'SEO Optimization Tool 1',
-    description: 'An example AI tool for seo optimization purposes.',
-    category: 'seo',
-    url: 'https://example.com/seo-tool1',
-    pricing: 'freemium',
-    keywords: ['seo optimization', 'ai', 'tool', 'seo']
+    id: 'semrush',
+    name: 'Semrush',
+    description: 'A comprehensive SEO platform with AI-powered tools for keyword research, rank tracking, site audits, and content optimization.',
+    category: 'seo-tool',
+    url: 'https://www.semrush.com/',
+    pricing: 'subscription',
+    keywords: ['seo analysis', 'keyword research', 'rank tracking', 'site audit', 'competitor analysis', 'ai seo']
   },
   {
-    id: 'seo-tool2',
-    name: 'SEO Optimization Tool 2',
-    description: 'An example AI tool for seo optimization purposes.',
-    category: 'seo',
-    url: 'https://example.com/seo-tool2',
-    pricing: 'freemium',
-    keywords: ['seo optimization', 'ai', 'tool', 'seo']
+    id: 'ahrefs',
+    name: 'Ahrefs',
+    description: 'A popular SEO toolset offering site explorer, keyword explorer, and content explorer features, with some AI capabilities for analysis.',
+    category: 'seo-tool',
+    url: 'https://ahrefs.com/',
+    pricing: 'subscription',
+    keywords: ['seo analysis', 'backlink checker', 'keyword research', 'content explorer', 'competitor analysis']
   },
   {
-    id: 'seo-tool3',
-    name: 'SEO Optimization Tool 3',
-    description: 'An example AI tool for seo optimization purposes.',
-    category: 'seo',
-    url: 'https://example.com/seo-tool3',
-    pricing: 'freemium',
-    keywords: ['seo optimization', 'ai', 'tool', 'seo']
+    id: 'moz',
+    name: 'Moz',
+    description: 'Provides SEO tools for keyword research, link building, site audits, and rank tracking, incorporating data-driven insights.',
+    category: 'seo-tool',
+    url: 'https://moz.com/',
+    pricing: 'subscription',
+    keywords: ['seo tools', 'domain authority', 'keyword research', 'site audit', 'link building']
   },
   {
-    id: 'seo-tool4',
-    name: 'SEO Optimization Tool 4',
-    description: 'An example AI tool for seo optimization purposes.',
-    category: 'seo',
-    url: 'https://example.com/seo-tool4',
+    id: 'screaming-frog-seo-spider',
+    name: 'Screaming Frog SEO Spider',
+    description: 'A website crawler that helps perform technical SEO audits by extracting data and identifying common SEO issues.',
+    category: 'seo-tool',
+    url: 'https://www.screamingfrog.co.uk/seo-spider/',
     pricing: 'freemium',
-    keywords: ['seo optimization', 'ai', 'tool', 'seo']
+    keywords: ['technical seo', 'website crawler', 'site audit', 'seo analysis', 'on-page seo']
   },
   {
-    id: 'seo-tool5',
-    name: 'SEO Optimization Tool 5',
-    description: 'An example AI tool for seo optimization purposes.',
-    category: 'seo',
-    url: 'https://example.com/seo-tool5',
-    pricing: 'freemium',
-    keywords: ['seo optimization', 'ai', 'tool', 'seo']
+    id: 'clearscope',
+    name: 'Clearscope',
+    description: 'An AI-powered platform focused on content optimization to improve search rankings by providing insights based on top-performing content.',
+    category: 'seo-tool',
+    url: 'https://www.clearscope.io/',
+    pricing: 'subscription',
+    keywords: ['content optimization', 'seo content', 'ai writing', 'keyword analysis', 'serp analysis']
   },
   {
-    id: 'legal-assistant-tool1',
-    name: 'Legal Assistant Tool 1',
-    description: 'An example AI tool for legal assistant purposes.',
+    id: 'casetext',
+    name: 'Casetext',
+    description: 'An AI legal research platform that helps legal professionals find relevant case law, statutes, and regulations quickly using AI-powered search.',
     category: 'legal-assistant',
-    url: 'https://example.com/legal-assistant-tool1',
-    pricing: 'freemium',
-    keywords: ['legal assistant', 'ai', 'tool', 'legal-assistant']
+    url: 'https://casetext.com/',
+    pricing: 'subscription',
+    keywords: ['legal research', 'ai in law', 'legal tech', 'case law', 'document analysis']
   },
   {
-    id: 'legal-assistant-tool2',
-    name: 'Legal Assistant Tool 2',
-    description: 'An example AI tool for legal assistant purposes.',
+    id: 'cocounsel',
+    name: 'CoCounsel (Thomson Reuters)',
+    description: 'An AI legal assistant by Thomson Reuters that performs tasks like legal research, document drafting, and summarizing legal documents.',
     category: 'legal-assistant',
-    url: 'https://example.com/legal-assistant-tool2',
-    pricing: 'freemium',
-    keywords: ['legal assistant', 'ai', 'tool', 'legal-assistant']
+    url: 'https://legal.thomsonreuters.com/blog/cocounsel-ai-legal-assistant/',
+    pricing: 'subscription',
+    keywords: ['legal ai', 'legal research', 'document review', 'ai drafting', 'legal tech']
   },
   {
-    id: 'legal-assistant-tool3',
-    name: 'Legal Assistant Tool 3',
-    description: 'An example AI tool for legal assistant purposes.',
+    id: 'luminance',
+    name: 'Luminance',
+    description: 'An AI platform for legal document review and contract analysis, using machine learning to read and understand legal texts and identify risks.',
     category: 'legal-assistant',
-    url: 'https://example.com/legal-assistant-tool3',
-    pricing: 'freemium',
-    keywords: ['legal assistant', 'ai', 'tool', 'legal-assistant']
+    url: 'https://www.luminance.com/',
+    pricing: 'subscription',
+    keywords: ['document review', 'contract analysis', 'legal tech', 'due diligence', 'ai in law']
   },
   {
-    id: 'legal-assistant-tool4',
-    name: 'Legal Assistant Tool 4',
-    description: 'An example AI tool for legal assistant purposes.',
+    id: 'legalmap',
+    name: 'LegalMation',
+    description: 'Focuses on automating litigation tasks, particularly the drafting of responses to written discovery requests using AI.',
     category: 'legal-assistant',
-    url: 'https://example.com/legal-assistant-tool4',
-    pricing: 'freemium',
-    keywords: ['legal assistant', 'ai', 'tool', 'legal-assistant']
+    url: 'https://legalmation.com/',
+    pricing: 'subscription',
+    keywords: ['litigation automation', 'legal tech', 'ai drafting', 'legal documents', 'discovery']
   },
   {
-    id: 'legal-assistant-tool5',
-    name: 'Legal Assistant Tool 5',
-    description: 'An example AI tool for legal assistant purposes.',
+    id: 'zerofox',
+    name: 'ZeroFox',
+    description: 'While primarily a digital risk protection platform, it uses AI to identify and mitigate threats, which can include legal risks like brand infringement online.',
     category: 'legal-assistant',
-    url: 'https://example.com/legal-assistant-tool5',
-    pricing: 'freemium',
-    keywords: ['legal assistant', 'ai', 'tool', 'legal-assistant']
+    url: 'https://www.zerofox.com/',
+    pricing: 'subscription',
+    keywords: ['digital risk protection', 'brand protection', 'legal risk', 'online monitoring', 'ai security']
   },
   {
-    id: 'translation-tool1',
-    name: 'Translation Tool 1',
-    description: 'An example AI tool for translation purposes.',
-    category: 'translation',
-    url: 'https://example.com/translation-tool1',
+    id: 'deepl',
+    name: 'DeepL',
+    description: 'An AI translation tool known for high accuracy, especially in European languages, offering text and document translation.',
+    category: 'translation-tool',
+    url: 'https://www.deepl.com/',
     pricing: 'freemium',
-    keywords: ['translation', 'ai', 'tool', 'translation']
+    keywords: ['neural machine translation', 'text translation', 'document translation', 'language ai', 'accuracy']
   },
   {
-    id: 'translation-tool2',
-    name: 'Translation Tool 2',
-    description: 'An example AI tool for translation purposes.',
-    category: 'translation',
-    url: 'https://example.com/translation-tool2',
-    pricing: 'freemium',
-    keywords: ['translation', 'ai', 'tool', 'translation']
+    id: 'google-translate',
+    name: 'Google Translate',
+    description: 'A widely used AI translation service providing text, voice, image, and website translation across many languages.',
+    category: 'translation-tool',
+    url: 'https://translate.google.com/',
+    pricing: 'free',
+    keywords: ['machine translation', 'text translation', 'voice translation', 'image translation', 'website translation', 'free translation']
   },
   {
-    id: 'translation-tool3',
-    name: 'Translation Tool 3',
-    description: 'An example AI tool for translation purposes.',
-    category: 'translation',
-    url: 'https://example.com/translation-tool3',
-    pricing: 'freemium',
-    keywords: ['translation', 'ai', 'tool', 'translation']
+    id: 'amazon-translate',
+    name: 'Amazon Translate',
+    description: 'A neural machine translation service by AWS for developers to integrate high-quality translation into applications.',
+    category: 'translation-tool',
+    url: 'https://aws.amazon.com/translate/',
+    pricing: 'paid',
+    keywords: ['api translation', 'machine translation', 'developer tool', 'aws', 'neural translation']
   },
   {
-    id: 'translation-tool4',
-    name: 'Translation Tool 4',
-    description: 'An example AI tool for translation purposes.',
-    category: 'translation',
-    url: 'https://example.com/translation-tool4',
+    id: 'microsoft-translator',
+    name: 'Microsoft Translator',
+    description: 'Provides AI-powered translation for text, voice, and images, integrated across Microsoft products and available as a service.',
+    category: 'translation-tool',
+    url: 'https://translator.microsoft.com/',
     pricing: 'freemium',
-    keywords: ['translation', 'ai', 'tool', 'translation']
+    keywords: ['machine translation', 'text translation', 'api translation', 'microsoft', 'bing']
   },
   {
-    id: 'translation-tool5',
-    name: 'Translation Tool 5',
-    description: 'An example AI tool for translation purposes.',
-    category: 'translation',
-    url: 'https://example.com/translation-tool5',
-    pricing: 'freemium',
-    keywords: ['translation', 'ai', 'tool', 'translation']
+    id: 'smartling',
+    name: 'Smartling',
+    description: 'An enterprise-grade translation management platform leveraging AI for efficient and scalable localization workflows.',
+    category: 'translation-tool',
+    url: 'https://www.smartling.com/',
+    pricing: 'subscription',
+    keywords: ['translation management', 'machine translation', 'localization', 'enterprise translation', 'ai translation']
   },
   {
-    id: 'content-detection-tool1',
-    name: 'Content Detection Tool 1',
-    description: 'An example AI tool for content detection purposes.',
+    id: 'originality-ai',
+    name: 'Originality.ai',
+    description: 'An AI content detection tool known for high accuracy in identifying AI-generated text, often used by content professionals and educators.',
     category: 'content-detection',
-    url: 'https://example.com/content-detection-tool1',
-    pricing: 'freemium',
-    keywords: ['content detection', 'ai', 'tool', 'content-detection']
+    url: 'https://originality.ai/',
+    pricing: 'paid',
+    keywords: ['ai writing detection', 'ai content checker', 'plagiarism checker', 'seo content', 'content authenticity']
   },
   {
-    id: 'content-detection-tool2',
-    name: 'Content Detection Tool 2',
-    description: 'An example AI tool for content detection purposes.',
+    id: 'gptzero',
+    name: 'GPTZero',
+    description: 'A popular AI detection tool designed to determine if text was written by a human or an AI model like ChatGPT, used frequently in education.',
     category: 'content-detection',
-    url: 'https://example.com/content-detection-tool2',
+    url: 'https://gptzero.me/',
     pricing: 'freemium',
-    keywords: ['content detection', 'ai', 'tool', 'content-detection']
+    keywords: ['ai text detection', 'ai checker', 'education', 'academic integrity', 'ai writing']
   },
   {
-    id: 'content-detection-tool3',
-    name: 'Content Detection Tool 3',
-    description: 'An example AI tool for content detection purposes.',
+    id: 'zerogpt',
+    name: 'ZeroGPT',
+    description: 'A free online AI content detector that quickly analyzes text and provides a percentage indicating the likelihood of AI generation.',
     category: 'content-detection',
-    url: 'https://example.com/content-detection-tool3',
+    url: 'https://www.zerogpt.com/',
     pricing: 'freemium',
-    keywords: ['content detection', 'ai', 'tool', 'content-detection']
+    keywords: ['free ai detector', 'ai checker', 'ai content analysis', 'text analysis']
   },
   {
-    id: 'content-detection-tool4',
-    name: 'Content Detection Tool 4',
-    description: 'An example AI tool for content detection purposes.',
+    id: 'copyleaks',
+    name: 'Copyleaks',
+    description: 'Offers AI content detection and plagiarism checking solutions, widely used by businesses and educational institutions.',
     category: 'content-detection',
-    url: 'https://example.com/content-detection-tool4',
-    pricing: 'freemium',
-    keywords: ['content detection', 'ai', 'tool', 'content-detection']
+    url: 'https://copyleaks.com/ai-content-detector',
+    pricing: 'subscription',
+    keywords: ['ai content detector', 'plagiarism checker', 'ai writing detection', 'multilingual', 'education']
   },
   {
-    id: 'content-detection-tool5',
-    name: 'Content Detection Tool 5',
-    description: 'An example AI tool for content detection purposes.',
+    id: 'quillbot-ai-detector',
+    name: 'QuillBot AI Detector',
+    description: 'Part of QuillBot\'s writing suite, this tool detects AI-generated and AI-refined content in text.',
     category: 'content-detection',
-    url: 'https://example.com/content-detection-tool5',
+    url: 'https://quillbot.com/ai-content-detector',
     pricing: 'freemium',
-    keywords: ['content detection', 'ai', 'tool', 'content-detection']
+    keywords: ['ai checker', 'ai writing detection', 'paraphrasing tool integration', 'content analysis']
   },
   {
-    id: 'prompt-engineering-tool1',
-    name: 'Prompt Engineering Tool 1',
-    description: 'An example AI tool for prompt engineering purposes.',
+    id: 'promptperfect',
+    name: 'PromptPerfect',
+    description: 'An AI-powered tool that optimizes and rewrites prompts to yield more accurate and desirable results from AI models.',
     category: 'prompt-engineering',
-    url: 'https://example.com/prompt-engineering-tool1',
+    url: 'https://promptperfect.jina.ai/',
     pricing: 'freemium',
-    keywords: ['prompt engineering', 'ai', 'tool', 'prompt-engineering']
+    keywords: ['prompt optimization', 'ai prompt generator', 'prompt refinement', 'ai models', 'text generation']
   },
   {
-    id: 'prompt-engineering-tool2',
-    name: 'Prompt Engineering Tool 2',
-    description: 'An example AI tool for prompt engineering purposes.',
+    id: 'promptlayer',
+    name: 'PromptLayer',
+    description: 'A platform for logging, managing, and evaluating prompts for large language models, aiding teams in prompt engineering and observability.',
     category: 'prompt-engineering',
-    url: 'https://example.com/prompt-engineering-tool2',
-    pricing: 'freemium',
-    keywords: ['prompt engineering', 'ai', 'tool', 'prompt-engineering']
+    url: 'https://www.promptlayer.com/',
+    pricing: 'subscription',
+    keywords: ['prompt management', 'prompt testing', 'prompt evaluation', 'llm observability', 'api monitoring']
   },
   {
-    id: 'prompt-engineering-tool3',
-    name: 'Prompt Engineering Tool 3',
-    description: 'An example AI tool for prompt engineering purposes.',
+    id: 'prompthub',
+    name: 'PromptHub',
+    description: 'A collaboration platform for teams to discover, manage, version, and test AI prompts.',
     category: 'prompt-engineering',
-    url: 'https://example.com/prompt-engineering-tool3',
+    url: 'https://www.prompthub.us/',
     pricing: 'freemium',
-    keywords: ['prompt engineering', 'ai', 'tool', 'prompt-engineering']
+    keywords: ['prompt management', 'prompt versioning', 'prompt collaboration', 'prompt testing', 'ai community']
   },
   {
-    id: 'prompt-engineering-tool4',
-    name: 'Prompt Engineering Tool 4',
-    description: 'An example AI tool for prompt engineering purposes.',
+    id: 'langchain',
+    name: 'LangChain',
+    description: 'An open-source framework for developing applications powered by language models, providing tools for prompt management and chaining.',
     category: 'prompt-engineering',
-    url: 'https://example.com/prompt-engineering-tool4',
-    pricing: 'freemium',
-    keywords: ['prompt engineering', 'ai', 'tool', 'prompt-engineering']
+    url: 'https://www.langchain.com/',
+    pricing: 'free',
+    keywords: ['llm framework', 'prompt chaining', 'application development', 'open source', 'ai development']
   },
   {
-    id: 'prompt-engineering-tool5',
-    name: 'Prompt Engineering Tool 5',
-    description: 'An example AI tool for prompt engineering purposes.',
+    id: 'openai-playground',
+    name: 'OpenAI Playground',
+    description: 'An interactive web interface provided by OpenAI to experiment with and test prompts for their language models.',
     category: 'prompt-engineering',
-    url: 'https://example.com/prompt-engineering-tool5',
-    pricing: 'freemium',
-    keywords: ['prompt engineering', 'ai', 'tool', 'prompt-engineering']
+    url: 'https://platform.openai.com/playground',
+    pricing: 'paid',
+    keywords: ['prompt testing', 'ai model interaction', 'openai', 'llm experimentation', 'api interface']
   },
   {
-    id: 'framework-tool1',
-    name: 'Frameworks Tool 1',
-    description: 'An example AI tool for frameworks purposes.',
-    category: 'framework',
-    url: 'https://example.com/framework-tool1',
-    pricing: 'freemium',
-    keywords: ['frameworks', 'ai', 'tool', 'framework']
-  },
-  {
-    id: 'framework-tool2',
-    name: 'Frameworks Tool 2',
-    description: 'An example AI tool for frameworks purposes.',
-    category: 'framework',
-    url: 'https://example.com/framework-tool2',
-    pricing: 'freemium',
-    keywords: ['frameworks', 'ai', 'tool', 'framework']
-  },
-  {
-    id: 'framework-tool3',
-    name: 'Frameworks Tool 3',
-    description: 'An example AI tool for frameworks purposes.',
-    category: 'framework',
-    url: 'https://example.com/framework-tool3',
-    pricing: 'freemium',
-    keywords: ['frameworks', 'ai', 'tool', 'framework']
-  },
-  {
-    id: 'framework-tool4',
-    name: 'Frameworks Tool 4',
-    description: 'An example AI tool for frameworks purposes.',
-    category: 'framework',
-    url: 'https://example.com/framework-tool4',
-    pricing: 'freemium',
-    keywords: ['frameworks', 'ai', 'tool', 'framework']
-  },
-  {
-    id: 'framework-tool5',
-    name: 'Frameworks Tool 5',
-    description: 'An example AI tool for frameworks purposes.',
-    category: 'framework',
-    url: 'https://example.com/framework-tool5',
-    pricing: 'freemium',
-    keywords: ['frameworks', 'ai', 'tool', 'framework']
-  },
-  {
-    id: 'model-evaluation-tool1',
-    name: 'Model Evaluation Tool 1',
-    description: 'An example AI tool for model evaluation purposes.',
+    id: 'mlflow',
+    name: 'MLflow',
+    description: 'An open-source platform to manage the ML lifecycle, including tracking experiments, logging parameters, and evaluating models.',
     category: 'model-evaluation',
-    url: 'https://example.com/model-evaluation-tool1',
-    pricing: 'freemium',
-    keywords: ['model evaluation', 'ai', 'tool', 'model-evaluation']
+    url: 'https://mlflow.org/',
+    pricing: 'free',
+    keywords: ['mlops', 'experiment tracking', 'model tracking', 'performance metrics', 'ml lifecycle', 'open source']
   },
   {
-    id: 'model-evaluation-tool2',
-    name: 'Model Evaluation Tool 2',
-    description: 'An example AI tool for model evaluation purposes.',
+    id: 'deepchecks',
+    name: 'Deepchecks',
+    description: 'An open-source library and platform for testing and validating ML models and data, ensuring performance, integrity, and lack of bias.',
     category: 'model-evaluation',
-    url: 'https://example.com/model-evaluation-tool2',
+    url: 'https://docs.deepchecks.com/stable/',
     pricing: 'freemium',
-    keywords: ['model evaluation', 'ai', 'tool', 'model-evaluation']
+    keywords: ['ml validation', 'model testing', 'data validation', 'bias detection', 'model monitoring', 'open source']
   },
   {
-    id: 'model-evaluation-tool3',
-    name: 'Model Evaluation Tool 3',
-    description: 'An example AI tool for model evaluation purposes.',
+    id: 'arize-ai',
+    name: 'Arize AI',
+    description: 'An MLOps observability platform for monitoring and troubleshooting ML models in production, detecting performance degradation and data drift.',
     category: 'model-evaluation',
-    url: 'https://example.com/model-evaluation-tool3',
-    pricing: 'freemium',
-    keywords: ['model evaluation', 'ai', 'tool', 'model-evaluation']
+    url: 'https://www.arize.com/',
+    pricing: 'subscription',
+    keywords: ['ml monitoring', 'ml observability', 'performance monitoring', 'data drift', 'bias detection', 'production ml']
   },
   {
-    id: 'model-evaluation-tool4',
-    name: 'Model Evaluation Tool 4',
-    description: 'An example AI tool for model evaluation purposes.',
+    id: 'evidently-ai',
+    name: 'Evidently AI',
+    description: 'An open-source Python library for ML model evaluation, monitoring, and, analyzing data drift and model performance.',
     category: 'model-evaluation',
-    url: 'https://example.com/model-evaluation-tool4',
-    pricing: 'freemium',
-    keywords: ['model evaluation', 'ai', 'tool', 'model-evaluation']
+    url: 'https://www.evidentlyai.com/',
+    pricing: 'free',
+    keywords: ['ml monitoring', 'data drift', 'model performance', 'data analysis', 'open source', 'python']
   },
   {
-    id: 'model-evaluation-tool5',
-    name: 'Model Evaluation Tool 5',
-    description: 'An example AI tool for model evaluation purposes.',
+    id: 'ibm-ai-fairness-360',
+    name: 'IBM AI Fairness 360',
+    description: 'An open-source toolkit providing metrics and algorithms to detect and mitigate bias in AI models.',
     category: 'model-evaluation',
-    url: 'https://example.com/model-evaluation-tool5',
-    pricing: 'freemium',
-    keywords: ['model evaluation', 'ai', 'tool', 'model-evaluation']
+    url: 'http://aif360.mybluemix.net/',
+    pricing: 'free',
+    keywords: ['ai fairness', 'bias detection', 'bias mitigation', 'explainability', 'open source', 'ibm']
   },
   {
-    id: 'learning-platform-tool1',
-    name: 'Learning Platforms Tool 1',
-    description: 'An example AI tool for learning platforms purposes.',
+    id: 'tensorflow',
+    name: 'TensorFlow',
+    description: 'A widely adopted open-source library for numerical computation and large-scale machine learning, particularly deep learning.',
+    category: 'framework',
+    url: 'https://www.tensorflow.org/',
+    pricing: 'free',
+    keywords: ['deep learning', 'machine learning', 'neural networks', 'open source', 'google', 'ai development']
+  },
+  {
+    id: 'pytorch',
+    name: 'PyTorch',
+    description: 'A popular open-source machine learning library known for its flexibility and ease of use, favored by researchers and increasingly used in production.',
+    category: 'framework',
+    url: 'https://pytorch.org/',
+    pricing: 'free',
+    keywords: ['deep learning', 'machine learning', 'neural networks', 'open source', 'meta ai', 'research']
+  },
+  {
+    id: 'keras',
+    name: 'Keras',
+    description: 'A high-level neural networks API that runs on top of other frameworks like TensorFlow, PyTorch, and JAX, known for its user-friendliness and rapid prototyping capabilities.',
+    category: 'framework',
+    url: 'https://keras.io/',
+    pricing: 'free',
+    keywords: ['deep learning', 'neural networks', 'api', 'python', 'user-friendly', 'prototyping']
+  },
+  {
+    id: 'scikit-learn',
+    name: 'Scikit-learn',
+    description: 'A widely used open-source library for traditional machine learning tasks, data mining, and data analysis.',
+    category: 'framework',
+    url: 'https://scikit-learn.org/',
+    pricing: 'free',
+    keywords: ['machine learning', 'data mining', 'data analysis', 'open source', 'python', 'traditional ml']
+  },
+  {
+    id: 'google-cloud-vertex-ai',
+    name: 'Google Cloud Vertex AI',
+    description: 'A managed, unified AI development platform on Google Cloud that supports building, training, and deploying models using various frameworks.',
+    category: 'framework',
+    url: 'https://cloud.google.com/vertex-ai',
+    pricing: 'paid',
+    keywords: ['ai platform', 'mlops', 'model training', 'model deployment', 'google cloud', 'generative ai']
+  },
+  {
+    id: 'mlflow',
+    name: 'MLflow',
+    description: 'An open-source platform to manage the ML lifecycle, including tracking experiments, logging parameters, and evaluating models.',
+    category: 'model-evaluation',
+    url: 'https://mlflow.org/',
+    pricing: 'free',
+    keywords: ['mlops', 'experiment tracking', 'model tracking', 'performance metrics', 'ml lifecycle', 'open source']
+  },
+  {
+    id: 'deepchecks',
+    name: 'Deepchecks',
+    description: 'An open-source library and platform for testing and validating ML models and data, ensuring performance, integrity, and lack of bias.',
+    category: 'model-evaluation',
+    url: 'https://docs.deepchecks.com/stable/',
+    pricing: 'freemium',
+    keywords: ['ml validation', 'model testing', 'data validation', 'bias detection', 'model monitoring', 'open source']
+  },
+  {
+    id: 'arize-ai',
+    name: 'Arize AI',
+    description: 'An MLOps observability platform for monitoring and troubleshooting ML models in production, detecting performance degradation and data drift.',
+    category: 'model-evaluation',
+    url: 'https://www.arize.com/',
+    pricing: 'subscription',
+    keywords: ['ml monitoring', 'ml observability', 'performance monitoring', 'data drift', 'bias detection', 'production ml']
+  },
+  {
+    id: 'evidently-ai',
+    name: 'Evidently AI',
+    description: 'An open-source Python library for ML model evaluation, monitoring, and, analyzing data drift and model performance.',
+    category: 'model-evaluation',
+    url: 'https://www.evidentlyai.com/',
+    pricing: 'free',
+    keywords: ['ml monitoring', 'data drift', 'model performance', 'data analysis', 'open source', 'python']
+  },
+  {
+    id: 'ibm-ai-fairness-360',
+    name: 'IBM AI Fairness 360',
+    description: 'An open-source toolkit providing metrics and algorithms to detect and mitigate bias in AI models.',
+    category: 'model-evaluation',
+    url: 'http://aif360.mybluemix.net/',
+    pricing: 'free',
+    keywords: ['ai fairness', 'bias detection', 'bias mitigation', 'explainability', 'open source', 'ibm']
+  },
+  {
+    id: 'coursera',
+    name: 'Coursera',
+    description: 'An online learning platform offering a wide range of courses, specializations, and degrees in AI, ML, and Data Science from top universities.',
     category: 'learning-platform',
-    url: 'https://example.com/learning-platform-tool1',
+    url: 'https://www.coursera.org/',
     pricing: 'freemium',
-    keywords: ['learning platforms', 'ai', 'tool', 'learning-platform']
+    keywords: ['online courses', 'machine learning', 'deep learning', 'data science', 'ai education', 'certificates', 'specializations']
   },
   {
-    id: 'learning-platform-tool2',
-    name: 'Learning Platforms Tool 2',
-    description: 'An example AI tool for learning platforms purposes.',
+    id: 'edx',
+    name: 'edX',
+    description: 'A prominent online learning platform offering courses and programs in AI, ML, and related fields from universities worldwide.',
     category: 'learning-platform',
-    url: 'https://example.com/learning-platform-tool2',
+    url: 'https://www.edx.org/',
     pricing: 'freemium',
-    keywords: ['learning platforms', 'ai', 'tool', 'learning-platform']
+    keywords: ['online courses', 'artificial intelligence', 'machine learning', 'data science', 'certificates', 'programs', 'university courses']
   },
   {
-    id: 'learning-platform-tool3',
-    name: 'Learning Platforms Tool 3',
-    description: 'An example AI tool for learning platforms purposes.',
+    id: 'udemy',
+    name: 'Udemy',
+    description: 'An online learning marketplace featuring a vast library of courses on AI, ML, Data Science, and various tech topics, often taught by industry experts.',
     category: 'learning-platform',
-    url: 'https://example.com/learning-platform-tool3',
-    pricing: 'freemium',
-    keywords: ['learning platforms', 'ai', 'tool', 'learning-platform']
+    url: 'https://www.udemy.com/',
+    pricing: 'paid',
+    keywords: ['online courses', 'machine learning', 'artificial intelligence', 'data science', 'online marketplace', 'tutorials']
   },
   {
-    id: 'learning-platform-tool4',
-    name: 'Learning Platforms Tool 4',
-    description: 'An example AI tool for learning platforms purposes.',
+    id: 'google-ai-education',
+    name: 'Google AI Education',
+    description: 'A collection of resources and courses provided by Google to help developers and students learn about AI and Machine Learning, including the ML Crash Course.',
     category: 'learning-platform',
-    url: 'https://example.com/learning-platform-tool4',
-    pricing: 'freemium',
-    keywords: ['learning platforms', 'ai', 'tool', 'learning-platform']
+    url: 'https://developers.google.com/machine-learning/crash-course',
+    pricing: 'free',
+    keywords: ['ai education', 'machine learning', 'free courses', 'tutorials', 'google', 'tensorflow']
   },
   {
-    id: 'learning-platform-tool5',
-    name: 'Learning Platforms Tool 5',
-    description: 'An example AI tool for learning platforms purposes.',
+    id: 'datacamp',
+    name: 'DataCamp',
+    description: 'An online platform focused on data skills, offering interactive courses and exercises in data science, machine learning, and AI.',
     category: 'learning-platform',
-    url: 'https://example.com/learning-platform-tool5',
+    url: 'https://www.datacamp.com/',
     pricing: 'freemium',
-    keywords: ['learning platforms', 'ai', 'tool', 'learning-platform']
+    keywords: ['data science', 'machine learning', 'r programming', 'python', 'sql', 'interactive learning']
   },
   {
-    id: 'video-editing-tool1',
-    name: 'Video Editing Tool 1',
-    description: 'An example AI tool for video editing purposes.',
+    id: 'synthesia',
+    name: 'Synthesia',
+    description: 'An AI video generation platform that allows users to create videos with realistic AI avatars and voiceovers from simple text inputs.',
     category: 'video-editing',
-    url: 'https://example.com/video-editing-tool1',
-    pricing: 'freemium',
-    keywords: ['video editing', 'ai', 'tool', 'video-editing']
+    url: 'https://www.synthesia.io/',
+    pricing: 'subscription',
+    keywords: ['ai video generation', 'ai avatars', 'text-to-video', 'corporate video', 'explainer videos', 'ai voiceover']
   },
   {
-    id: 'video-editing-tool2',
-    name: 'Video Editing Tool 2',
-    description: 'An example AI tool for video editing purposes.',
+    id: 'runway',
+    name: 'Runway',
+    description: 'An AI creative platform offering tools for generative video (text-to-video, image-to-video) and AI-powered editing features like background removal.',
     category: 'video-editing',
-    url: 'https://example.com/video-editing-tool2',
+    url: 'https://runwayml.com/',
     pricing: 'freemium',
-    keywords: ['video editing', 'ai', 'tool', 'video-editing']
+    keywords: ['ai video generator', 'generative ai', 'text-to-video', 'image-to-video', 'video effects', 'creative tools']
   },
   {
-    id: 'video-editing-tool3',
-    name: 'Video Editing Tool 3',
-    description: 'An example AI tool for video editing purposes.',
+    id: 'descript',
+    name: 'Descript',
+    description: 'An audio and video editor that allows editing by modifying the text transcript, with integrated AI features like transcription and filler word removal.',
     category: 'video-editing',
-    url: 'https://example.com/video-editing-tool3',
+    url: 'https://www.descript.com/',
     pricing: 'freemium',
-    keywords: ['video editing', 'ai', 'tool', 'video-editing']
+    keywords: ['video editor', 'audio editor', 'transcription', 'ai editing', 'podcast editing', 'filler word removal']
   },
   {
-    id: 'video-editing-tool4',
-    name: 'Video Editing Tool 4',
-    description: 'An example AI tool for video editing purposes.',
+    id: 'invideo-ai',
+    name: 'InVideo AI',
+    description: 'An online AI video generator that transforms text prompts, scripts, or URLs into complete videos with AI-generated visuals, voiceovers, and music.',
     category: 'video-editing',
-    url: 'https://example.com/video-editing-tool4',
+    url: 'https://invideo.io/make/ai-video-editor',
     pricing: 'freemium',
-    keywords: ['video editing', 'ai', 'tool', 'video-editing']
+    keywords: ['ai video generator', 'text-to-video', 'video automation', 'online video editor', 'content creation']
   },
   {
-    id: 'video-editing-tool5',
-    name: 'Video Editing Tool 5',
-    description: 'An example AI tool for video editing purposes.',
+    id: 'capcut',
+    name: 'CapCut',
+    description: 'A free and popular video editing app (mobile and desktop) with user-friendly tools and integrated AI features for tasks like auto-captioning and background removal.',
     category: 'video-editing',
-    url: 'https://example.com/video-editing-tool5',
+    url: 'https://www.capcut.com/',
     pricing: 'freemium',
-    keywords: ['video editing', 'ai', 'tool', 'video-editing']
+    keywords: ['video editor', 'mobile app', 'desktop app', 'free video editing', 'auto captions', 'background removal']
   },
   {
-    id: 'music-generation-tool1',
-    name: 'Music Generation Tool 1',
-    description: 'An example AI tool for music generation purposes.',
+    id: 'suno-ai',
+    name: 'Suno AI',
+    description: 'An AI music generator capable of creating full songs with vocals and instrumentals from simple text descriptions or lyrics.',
     category: 'music-generation',
-    url: 'https://example.com/music-generation-tool1',
+    url: 'https://suno.com/',
     pricing: 'freemium',
-    keywords: ['music generation', 'ai', 'tool', 'music-generation']
+    keywords: ['ai song generator', 'text-to-music', 'ai vocals', 'ai instrumentals', 'full song generation']
   },
   {
-    id: 'music-generation-tool2',
-    name: 'Music Generation Tool 2',
-    description: 'An example AI tool for music generation purposes.',
+    id: 'udio',
+    name: 'Udio',
+    description: 'An AI platform that generates music and vocals from text prompts, offering creative control and the ability to extend audio tracks.',
     category: 'music-generation',
-    url: 'https://example.com/music-generation-tool2',
+    url: 'https://www.udio.com/',
     pricing: 'freemium',
-    keywords: ['music generation', 'ai', 'tool', 'music-generation']
+    keywords: ['ai music generator', 'text-to-music', 'ai vocals', 'audio-to-audio', 'song creation']
   },
   {
-    id: 'music-generation-tool3',
-    name: 'Music Generation Tool 3',
-    description: 'An example AI tool for music generation purposes.',
+    id: 'aiva',
+    name: 'AIVA',
+    description: 'An AI music composition assistant that helps users create emotional soundtracks and background music in over 250 styles.',
     category: 'music-generation',
-    url: 'https://example.com/music-generation-tool3',
+    url: 'https://www.aiva.ai/',
     pricing: 'freemium',
-    keywords: ['music generation', 'ai', 'tool', 'music-generation']
+    keywords: ['ai music composition', 'soundtrack generation', 'background music', 'instrumental music', 'ai assistant']
   },
   {
-    id: 'music-generation-tool4',
-    name: 'Music Generation Tool 4',
-    description: 'An example AI tool for music generation purposes.',
+    id: 'mubert',
+    name: 'Mubert',
+    description: 'Generates royalty-free AI music streams and tracks for content creators, tailored to mood, genre, and activity.',
     category: 'music-generation',
-    url: 'https://example.com/music-generation-tool4',
+    url: 'https://mubert.com/',
     pricing: 'freemium',
-    keywords: ['music generation', 'ai', 'tool', 'music-generation']
+    keywords: ['royalty-free music', 'ai music stream', 'background music', 'content creation', 'mood-based music']
   },
   {
-    id: 'music-generation-tool5',
-    name: 'Music Generation Tool 5',
-    description: 'An example AI tool for music generation purposes.',
+    id: 'soundraw',
+    name: 'Soundraw',
+    description: 'Provides a library of royalty-free AI-generated music tracks that can be customized by mood, genre, and length for videos and content.',
     category: 'music-generation',
-    url: 'https://example.com/music-generation-tool5',
-    pricing: 'freemium',
-    keywords: ['music generation', 'ai', 'tool', 'music-generation']
+    url: 'https://soundraw.io/',
+    pricing: 'subscription',
+    keywords: ['royalty-free music', 'background music', 'video music', 'mood selection', 'music library']
   },
   {
-    id: 'email-assistant-tool1',
-    name: 'Email Assistant Tool 1',
-    description: 'An example AI tool for email assistant purposes.',
+    id: 'microsoft-copilot-email',
+    name: 'Microsoft Copilot (Email)',
+    description: 'An AI assistant integrated into Microsoft 365 and Outlook, helping with email drafting, summarization, and managing your inbox.',
     category: 'email-assistant',
-    url: 'https://example.com/email-assistant-tool1',
-    pricing: 'freemium',
-    keywords: ['email assistant', 'ai', 'tool', 'email-assistant']
+    url: 'https://copilot.microsoft.com/microsoft-365',
+    pricing: 'subscription',
+    keywords: ['ai assistant', 'outlook', 'microsoft 365', 'email drafting', 'email summarization', 'productivity']
   },
   {
-    id: 'email-assistant-tool2',
-    name: 'Email Assistant Tool 2',
-    description: 'An example AI tool for email assistant purposes.',
+    id: 'gemini-gmail',
+    name: 'Gemini for Gmail',
+    description: 'Google\'s AI assistant integrated into Gmail (Google Workspace) to assist with writing, replying to, summarizing, and prioritizing emails.',
     category: 'email-assistant',
-    url: 'https://example.com/email-assistant-tool2',
-    pricing: 'freemium',
-    keywords: ['email assistant', 'ai', 'tool', 'email-assistant']
+    url: 'https://workspace.google.com/ायलgemini/',
+    pricing: 'subscription',
+    keywords: ['ai assistant', 'gmail', 'google workspace', 'email drafting', 'email summarization', 'productivity']
   },
   {
-    id: 'email-assistant-tool3',
-    name: 'Email Assistant Tool 3',
-    description: 'An example AI tool for email assistant purposes.',
+    id: 'grammarly',
+    name: 'Grammarly',
+    description: 'An AI-powered writing assistant that helps compose, refine, and proofread emails for clarity, tone, and correctness.',
     category: 'email-assistant',
-    url: 'https://example.com/email-assistant-tool3',
+    url: 'https://www.grammarly.com/',
     pricing: 'freemium',
-    keywords: ['email assistant', 'ai', 'tool', 'email-assistant']
+    keywords: ['writing assistant', 'grammar checker', 'email writing', 'ai writing', 'productivity']
   },
   {
-    id: 'email-assistant-tool4',
-    name: 'Email Assistant Tool 4',
-    description: 'An example AI tool for email assistant purposes.',
+    id: 'flowrite',
+    name: 'Flowrite',
+    description: 'An AI tool that transforms short instructions into ready-to-send emails and messages, automating the writing process.',
     category: 'email-assistant',
-    url: 'https://example.com/email-assistant-tool4',
-    pricing: 'freemium',
-    keywords: ['email assistant', 'ai', 'tool', 'email-assistant']
+    url: 'https://flowrite.com/',
+    pricing: 'subscription',
+    keywords: ['ai writing', 'email automation', 'writing assistant', 'productivity', 'email drafting']
   },
   {
-    id: 'email-assistant-tool5',
-    name: 'Email Assistant Tool 5',
-    description: 'An example AI tool for email assistant purposes.',
+    id: 'sanebox',
+    name: 'SaneBox',
+    description: 'An AI email management service that intelligently filters, prioritizes, and summarizes emails to help achieve inbox zero.',
     category: 'email-assistant',
-    url: 'https://example.com/email-assistant-tool5',
-    pricing: 'freemium',
-    keywords: ['email assistant', 'ai', 'tool', 'email-assistant']
+    url: 'https://www.sanebox.com/',
+    pricing: 'subscription',
+    keywords: ['email management', 'inbox organization', 'ai sorting', 'email prioritization', 'productivity', 'email summarization']
   },
   {
-    id: 'marketing-tool1',
-    name: 'Marketing Tool 1',
-    description: 'An example AI tool for marketing purposes.',
+    id: 'hubspot-ai',
+    name: 'HubSpot AI',
+    description: 'AI-powered features integrated across the HubSpot CRM platform to assist with content creation, data analysis, and automating marketing tasks.',
     category: 'marketing',
-    url: 'https://example.com/marketing-tool1',
-    pricing: 'freemium',
-    keywords: ['marketing', 'ai', 'tool', 'marketing']
+    url: 'https://www.hubspot.com/campaign-assistant/ai-for-marketing',
+    pricing: 'subscription',
+    keywords: ['marketing automation', 'crm', 'content creation', 'email marketing', 'sales', 'service', 'ai marketing']
   },
   {
-    id: 'marketing-tool2',
-    name: 'Marketing Tool 2',
-    description: 'An example AI tool for marketing purposes.',
+    id: 'jasper-marketing',
+    name: 'Jasper',
+    description: 'An AI co-pilot for marketing teams to quickly generate and repurpose content for various channels while maintaining brand consistency.',
     category: 'marketing',
-    url: 'https://example.com/marketing-tool2',
-    pricing: 'freemium',
-    keywords: ['marketing', 'ai', 'tool', 'marketing']
+    url: 'https://www.jasper.ai/',
+    pricing: 'subscription',
+    keywords: ['ai writing assistant', 'content creation', 'copywriting', 'marketing content', 'ai platform']
   },
   {
-    id: 'marketing-tool3',
-    name: 'Marketing Tool 3',
-    description: 'An example AI tool for marketing purposes.',
+    id: 'semrush-marketing',
+    name: 'Semrush',
+    description: 'A leading SEO and online visibility management platform with AI-powered tools for keyword research, content optimization, and competitive analysis in marketing.',
     category: 'marketing',
-    url: 'https://example.com/marketing-tool3',
-    pricing: 'freemium',
-    keywords: ['marketing', 'ai', 'tool', 'marketing']
+    url: 'https://www.semrush.com/',
+    pricing: 'subscription',
+    keywords: ['seo', 'digital marketing', 'keyword research', 'content marketing', 'competitor analysis', 'ppc', 'ai seo']
   },
   {
-    id: 'marketing-tool4',
-    name: 'Marketing Tool 4',
-    description: 'An example AI tool for marketing purposes.',
+    id: 'salesforce-marketingcloud',
+    name: 'Salesforce Marketing Cloud',
+    description: 'An AI-powered marketing automation and analytics platform that enables personalized customer journeys and optimizes campaigns using AI.',
     category: 'marketing',
-    url: 'https://example.com/marketing-tool4',
-    pricing: 'freemium',
-    keywords: ['marketing', 'ai', 'tool', 'marketing']
+    url: 'https://www.salesforce.com/products/marketing-cloud/overview/',
+    pricing: 'subscription',
+    keywords: ['marketing automation', 'crm', 'customer journeys', 'personalization', 'analytics', 'enterprise marketing', 'salesforce einstein']
   },
   {
-    id: 'marketing-tool5',
-    name: 'Marketing Tool 5',
-    description: 'An example AI tool for marketing purposes.',
+    id: 'google-ads-ai',
+    name: 'Google Ads (AI features)',
+    description: 'Google\'s online advertising platform that extensively uses AI and machine learning for ad targeting, bidding optimization, and creative suggestions to maximize campaign performance.',
     category: 'marketing',
-    url: 'https://example.com/marketing-tool5',
-    pricing: 'freemium',
-    keywords: ['marketing', 'ai', 'tool', 'marketing']
+    url: 'https://ads.google.com/',
+    pricing: 'paid',
+    keywords: ['online advertising', 'ppc', 'search advertising', 'display advertising', 'advertising optimization', 'google ai']
   },
   {
-    id: 'photo-editing-tool1',
-    name: 'Photo Editing Tool 1',
-    description: 'An example AI tool for photo editing purposes.',
+    id: 'adobe-photoshop-ai',
+    name: 'Adobe Photoshop (AI features)',
+    description: 'A professional image editing standard with integrated AI features like Generative Fill for powerful manipulations and retouching.',
     category: 'photo-editing',
-    url: 'https://example.com/photo-editing-tool1',
-    pricing: 'freemium',
-    keywords: ['photo editing', 'ai', 'tool', 'photo-editing']
+    url: 'https://www.adobe.com/products/photoshop.html',
+    pricing: 'subscription',
+    keywords: ['professional photo editing', 'generative fill', 'background removal', 'image manipulation', 'adobe firefly']
   },
   {
-    id: 'photo-editing-tool2',
-    name: 'Photo Editing Tool 2',
-    description: 'An example AI tool for photo editing purposes.',
+    id: 'luminar-neo',
+    name: 'Luminar Neo',
+    description: 'An AI-driven photo editor designed to simplify complex editing with tools for automatic sky replacement, portrait enhancement, and relighting.',
     category: 'photo-editing',
-    url: 'https://example.com/photo-editing-tool2',
-    pricing: 'freemium',
-    keywords: ['photo editing', 'ai', 'tool', 'photo-editing']
+    url: 'https://skylum.com/luminar-neo',
+    pricing: 'paid',
+    keywords: ['ai photo editor', 'photo enhancement', 'portrait retouching', 'landscape editing', 'photography software']
   },
   {
-    id: 'photo-editing-tool3',
-    name: 'Photo Editing Tool 3',
-    description: 'An example AI tool for photo editing purposes.',
+    id: 'picsart',
+    name: 'Picsart',
+    description: 'A widely used online and mobile editor offering a broad suite of AI tools for quick edits, including background removal, object removal, and AI image generation.',
     category: 'photo-editing',
-    url: 'https://example.com/photo-editing-tool3',
+    url: 'https://picsart.com/',
     pricing: 'freemium',
-    keywords: ['photo editing', 'ai', 'tool', 'photo-editing']
+    keywords: ['online photo editor', 'mobile photo editor', 'background remover', 'object remover', 'image enhancement', 'ai image generator']
   },
   {
-    id: 'photo-editing-tool4',
-    name: 'Photo Editing Tool 4',
-    description: 'An example AI tool for photo editing purposes.',
+    id: 'fotor-ai',
+    name: 'Fotor (AI features)',
+    description: 'An online photo editor providing a variety of AI tools for enhancing photos, removing objects and backgrounds, and generating images from text.',
     category: 'photo-editing',
-    url: 'https://example.com/photo-editing-tool4',
+    url: 'https://www.fotor.com/ai-photo-editor/',
     pricing: 'freemium',
-    keywords: ['photo editing', 'ai', 'tool', 'photo-editing']
+    keywords: ['online photo editor', 'ai photo enhancement', 'object removal', 'background removal', 'ai image generator']
   },
   {
-    id: 'photo-editing-tool5',
-    name: 'Photo Editing Tool 5',
-    description: 'An example AI tool for photo editing purposes.',
+    id: 'topaz-labs',
+    name: 'Topaz Labs',
+    description: 'Offers specialized AI desktop applications for enhancing image quality, focusing on noise reduction, sharpening, and upscaling photographs.',
     category: 'photo-editing',
-    url: 'https://example.com/photo-editing-tool5',
-    pricing: 'freemium',
-    keywords: ['photo editing', 'ai', 'tool', 'photo-editing']
+    url: 'https://www.topazlabs.com/',
+    pricing: 'paid',
+    keywords: ['ai image quality', 'denoise', 'sharpen', 'upscale', 'photo enhancement', 'desktop software']
   },
   {
-    id: 'social-media-tool1',
-    name: 'Social Media Tool 1',
-    description: 'An example AI tool for social media purposes.',
+    id: 'buffer-ai',
+    name: 'Buffer (AI features)',
+    description: 'A social media management platform with an integrated AI Assistant to help brainstorm ideas, create content, and optimize posts for various platforms.',
     category: 'social-media',
-    url: 'https://example.com/social-media-tool1',
+    url: 'https://buffer.com/ai-assistant',
     pricing: 'freemium',
-    keywords: ['social media', 'ai', 'tool', 'social-media']
+    keywords: ['social media management', 'ai assistant', 'content creation', 'scheduling', 'social media marketing']
   },
   {
-    id: 'social-media-tool2',
-    name: 'Social Media Tool 2',
-    description: 'An example AI tool for social media purposes.',
+    id: 'hootsuite-ai',
+    name: 'Hootsuite (AI features)',
+    description: 'A comprehensive social media management platform featuring AI tools like OwlyWriter AI for generating captions, content ideas, and hashtags.',
     category: 'social-media',
-    url: 'https://example.com/social-media-tool2',
-    pricing: 'freemium',
-    keywords: ['social media', 'ai', 'tool', 'social-media']
+    url: 'https://www.hootsuite.com/platform/owly-writer-ai',
+    pricing: 'subscription',
+    keywords: ['social media management', 'ai writing', 'content ideation', 'scheduling', 'social media analytics']
   },
   {
-    id: 'social-media-tool3',
-    name: 'Social Media Tool 3',
-    description: 'An example AI tool for social media purposes.',
+    id: 'socialbee-ai',
+    name: 'SocialBee (AI features)',
+    description: 'An AI-powered social media tool that assists with content creation (captions, images), scheduling, and provides an AI Copilot for personalized recommendations.',
     category: 'social-media',
-    url: 'https://example.com/social-media-tool3',
-    pricing: 'freemium',
-    keywords: ['social media', 'ai', 'tool', 'social-media']
+    url: 'https://socialbee.com/ai-post-generator/',
+    pricing: 'subscription',
+    keywords: ['social media content', 'ai writing', 'scheduling', 'social media automation', 'content creation']
   },
   {
-    id: 'social-media-tool4',
-    name: 'Social Media Tool 4',
-    description: 'An example AI tool for social media purposes.',
+    id: 'ocoya-ai',
+    name: 'Ocoya',
+    description: 'An AI social media management tool that generates text, image, and video content, schedules posts, and provides analytics across multiple platforms.',
     category: 'social-media',
-    url: 'https://example.com/social-media-tool4',
-    pricing: 'freemium',
-    keywords: ['social media', 'ai', 'tool', 'social-media']
+    url: 'https://www.ocoya.com/',
+    pricing: 'subscription',
+    keywords: ['social media management', 'content creation', 'ai writing', 'ai images', 'ai video', 'scheduling', 'analytics']
   },
   {
-    id: 'social-media-tool5',
-    name: 'Social Media Tool 5',
-    description: 'An example AI tool for social media purposes.',
+    id: 'predis-ai',
+    name: 'Predis.ai',
+    description: 'Uses AI to generate creative social media posts and ads, analyze competitors, and predict post performance based on brand details.',
     category: 'social-media',
-    url: 'https://example.com/social-media-tool5',
+    url: 'https://predis.ai/',
     pricing: 'freemium',
-    keywords: ['social media', 'ai', 'tool', 'social-media']
+    keywords: ['social media content', 'ai ads', 'competitor analysis', 'content prediction', 'ai creative']
   },
   {
-    id: 'business-intelligence-tool1',
-    name: 'Business Intelligence Tool 1',
-    description: 'An example AI tool for business intelligence purposes.',
+    id: 'microsoft-power-bi-ai',
+    name: 'Microsoft Power BI (AI features)',
+    description: 'A leading business intelligence platform with integrated AI capabilities for data analysis, visualization, natural language querying, and automated insights.',
     category: 'business-intelligence',
-    url: 'https://example.com/business-intelligence-tool1',
-    pricing: 'freemium',
-    keywords: ['business intelligence', 'ai', 'tool', 'business-intelligence']
+    url: 'https://powerbi.microsoft.com/',
+    pricing: 'subscription',
+    keywords: ['business intelligence', 'data analysis', 'data visualization', 'ai insights', 'natural language query', 'microsoft', 'analytics']
   },
   {
-    id: 'business-intelligence-tool2',
-    name: 'Business Intelligence Tool 2',
-    description: 'An example AI tool for business intelligence purposes.',
+    id: 'tableau-ai',
+    name: 'Tableau (AI features)',
+    description: 'A powerful data visualization and analytics platform enhanced by Salesforce Einstein AI for predictive analytics, data explanations, and automated insights.',
     category: 'business-intelligence',
-    url: 'https://example.com/business-intelligence-tool2',
-    pricing: 'freemium',
-    keywords: ['business intelligence', 'ai', 'tool', 'business-intelligence']
+    url: 'https://www.tableau.com/',
+    pricing: 'subscription',
+    keywords: ['business intelligence', 'data visualization', 'predictive analytics', 'ai analytics', 'salesforce einstein', 'analytics']
   },
   {
-    id: 'business-intelligence-tool3',
-    name: 'Business Intelligence Tool 3',
-    description: 'An example AI tool for business intelligence purposes.',
+    id: 'zoho-analytics-ai',
+    name: 'Zoho Analytics (AI features)',
+    description: 'A self-service BI and analytics platform with an AI assistant (Zia) for natural language querying, automated data preparation, and predictive analytics.',
     category: 'business-intelligence',
-    url: 'https://example.com/business-intelligence-tool3',
+    url: 'https://www.zoho.com/analytics/',
     pricing: 'freemium',
-    keywords: ['business intelligence', 'ai', 'tool', 'business-intelligence']
+    keywords: ['business intelligence', 'self-service bi', 'natural language query', 'predictive analytics', 'automated insights', 'zia', 'analytics']
   },
   {
-    id: 'business-intelligence-tool4',
-    name: 'Business Intelligence Tool 4',
-    description: 'An example AI tool for business intelligence purposes.',
+    id: 'thoughtspot',
+    name: 'ThoughtSpot',
+    description: 'An AI-powered analytics platform that allows users to find data insights through natural language search and receive automated insights (SpotIQ).',
     category: 'business-intelligence',
-    url: 'https://example.com/business-intelligence-tool4',
-    pricing: 'freemium',
-    keywords: ['business intelligence', 'ai', 'tool', 'business-intelligence']
+    url: 'https://www.thoughtspot.com/',
+    pricing: 'subscription',
+    keywords: ['business intelligence', 'search analytics', 'natural language query', 'ai insights', 'self-service bi', 'analytics']
   },
   {
-    id: 'business-intelligence-tool5',
-    name: 'Business Intelligence Tool 5',
-    description: 'An example AI tool for business intelligence purposes.',
+    id: 'looker-google-cloud',
+    name: 'Looker (Google Cloud)',
+    description: 'A BI and analytics platform on Google Cloud with a robust semantic layer and AI features (Gemini in Looker) for conversational analytics and insight generation.',
     category: 'business-intelligence',
-    url: 'https://example.com/business-intelligence-tool5',
-    pricing: 'freemium',
-    keywords: ['business intelligence', 'ai', 'tool', 'business-intelligence']
+    url: 'https://cloud.google.com/looker',
+    pricing: 'subscription',
+    keywords: ['business intelligence', 'google cloud', 'semantic modeling', 'ai analytics', 'conversational bi', 'data analysis', 'analytics']
   },
   {
-    id: 'voice-cloning-tool1',
-    name: 'Voice Cloning Tool 1',
-    description: 'An example AI tool for voice cloning purposes.',
+    id: 'elevenlabs',
+    name: 'ElevenLabs',
+    description: 'A leading AI voice technology company offering highly realistic text-to-speech and voice cloning capabilities with support for numerous languages.',
     category: 'voice-cloning',
-    url: 'https://example.com/voice-cloning-tool1',
+    url: 'https://elevenlabs.io/',
     pricing: 'freemium',
-    keywords: ['voice cloning', 'ai', 'tool', 'voice-cloning']
+    keywords: ['ai voice', 'voice cloning', 'text to speech', 'speech synthesis', 'realistic voice', 'audio generation']
   },
   {
-    id: 'voice-cloning-tool2',
-    name: 'Voice Cloning Tool 2',
-    description: 'An example AI tool for voice cloning purposes.',
+    id: 'murf-ai',
+    name: 'Murf AI',
+    description: 'An AI voice generator and cloning tool offering studio-quality voiceovers for various applications, allowing users to create and edit synthetic voices.',
     category: 'voice-cloning',
-    url: 'https://example.com/voice-cloning-tool2',
+    url: 'https://murf.ai/',
     pricing: 'freemium',
-    keywords: ['voice cloning', 'ai', 'tool', 'voice-cloning']
+    keywords: ['ai voice generator', 'voice cloning', 'text to speech', 'voiceovers', 'synthetic voice', 'audio production']
   },
   {
-    id: 'voice-cloning-tool3',
-    name: 'Voice Cloning Tool 3',
-    description: 'An example AI tool for voice cloning purposes.',
+    id: 'playht',
+    name: 'PlayHT',
+    description: 'Provides realistic AI voice cloning and text-to-speech with a large library of voices and languages, suitable for content creation and narration.',
     category: 'voice-cloning',
-    url: 'https://example.com/voice-cloning-tool3',
+    url: 'https://play.ht/',
     pricing: 'freemium',
-    keywords: ['voice cloning', 'ai', 'tool', 'voice-cloning']
+    keywords: ['ai voice', 'voice cloning', 'text to speech', 'narration', 'audio content', 'synthetic voice']
   },
   {
-    id: 'voice-cloning-tool4',
-    name: 'Voice Cloning Tool 4',
-    description: 'An example AI tool for voice cloning purposes.',
+    id: 'resemble-ai',
+    name: 'Resemble AI',
+    description: 'Focuses on creating human-like, emotional AI voices and offers fast voice cloning from small audio samples for various media.',
     category: 'voice-cloning',
-    url: 'https://example.com/voice-cloning-tool4',
-    pricing: 'freemium',
-    keywords: ['voice cloning', 'ai', 'tool', 'voice-cloning']
+    url: 'https://www.resemble.ai/',
+    pricing: 'subscription',
+    keywords: ['ai voice', 'voice cloning', 'realistic voice', 'emotional voice', 'audio production', 'synthetic voice']
   },
   {
-    id: 'voice-cloning-tool5',
-    name: 'Voice Cloning Tool 5',
-    description: 'An example AI tool for voice cloning purposes.',
+    id: 'descript-overdub',
+    name: 'Descript (Overdub)',
+    description: 'Integrated voice cloning feature within the Descript audio/video editor, allowing users to create a synthetic version of their voice for editing and generating new audio.',
     category: 'voice-cloning',
-    url: 'https://example.com/voice-cloning-tool5',
-    pricing: 'freemium',
-    keywords: ['voice cloning', 'ai', 'tool', 'voice-cloning']
+    url: 'https://www.descript.com/overdub',
+    pricing: 'subscription',
+    keywords: ['ai voice', 'voice cloning', 'audio editing', 'video editing', 'synthetic voice', 'content creation']
   },
   {
-    id: 'finance-tool1',
-    name: 'Finance Tool 1',
-    description: 'An example AI tool for finance purposes.',
+    id: 'alphasense',
+    name: 'AlphaSense',
+    description: 'An AI-powered market intelligence platform for financial analysis and research, extracting insights from a vast universe of documents.',
     category: 'finance',
-    url: 'https://example.com/finance-tool1',
-    pricing: 'freemium',
-    keywords: ['finance', 'ai', 'tool', 'finance']
+    url: 'https://www.alpha-sense.com/',
+    pricing: 'subscription',
+    keywords: ['financial analysis', 'market intelligence', 'investment research', 'ai search', 'sentiment analysis']
   },
   {
-    id: 'finance-tool2',
-    name: 'Finance Tool 2',
-    description: 'An example AI tool for finance purposes.',
+    id: 'zest-ai',
+    name: 'Zest AI',
+    description: 'Applies AI to make credit underwriting more accurate, explainable, and equitable for lenders and borrowers.',
     category: 'finance',
-    url: 'https://example.com/finance-tool2',
-    pricing: 'freemium',
-    keywords: ['finance', 'ai', 'tool', 'finance']
+    url: 'https://www.zest.ai/',
+    pricing: 'enterprise',
+    keywords: ['credit scoring', 'lending', 'risk management', 'ai in finance', 'underwriting', 'financial inclusion']
   },
   {
-    id: 'finance-tool3',
-    name: 'Finance Tool 3',
-    description: 'An example AI tool for finance purposes.',
+    id: 'quantivate',
+    name: 'Quantivate',
+    description: 'Provides AI-enhanced governance, risk, and compliance (GRC) solutions for financial institutions to manage and mitigate risks.',
     category: 'finance',
-    url: 'https://example.com/finance-tool3',
-    pricing: 'freemium',
-    keywords: ['finance', 'ai', 'tool', 'finance']
+    url: 'https://www.quantivate.com/',
+    pricing: 'enterprise',
+    keywords: ['financial risk management', 'compliance', 'grc', 'ai in finance', 'risk assessment', 'regulatory technology']
   },
   {
-    id: 'finance-tool4',
-    name: 'Finance Tool 4',
-    description: 'An example AI tool for finance purposes.',
+    id: 'trade-ideas',
+    name: 'Trade Ideas',
+    description: 'An AI-driven stock trading platform that uses AI to scan the market and identify potential trading opportunities in real-time.',
     category: 'finance',
-    url: 'https://example.com/finance-tool4',
-    pricing: 'freemium',
-    keywords: ['finance', 'ai', 'tool', 'finance']
+    url: 'https://www.tradeideas.com/',
+    pricing: 'subscription',
+    keywords: ['stock trading', 'algorithmic trading', 'financial analysis', 'ai trading', 'market scanner', 'investment']
   },
   {
-    id: 'finance-tool5',
-    name: 'Finance Tool 5',
-    description: 'An example AI tool for finance purposes.',
+    id: 'zoho-analytics-finance',
+    name: 'Zoho Analytics (Finance Analysis)',
+    description: 'Leverages AI (Zia) for financial data analysis, reporting, and forecasting, enabling finance professionals to derive insights from their data.',
     category: 'finance',
-    url: 'https://example.com/finance-tool5',
+    url: 'https://www.zoho.com/analytics/financial-reporting.html',
     pricing: 'freemium',
-    keywords: ['finance', 'ai', 'tool', 'finance']
+    keywords: ['financial analysis', 'data analysis', 'reporting', 'forecasting', 'business intelligence', 'ai analytics']
   },
   {
-    id: 'hr-tool1',
-    name: 'Human Resources Tool 1',
-    description: 'An example AI tool for human resources purposes.',
-    category: 'hr',
-    url: 'https://example.com/hr-tool1',
-    pricing: 'freemium',
-    keywords: ['human resources', 'ai', 'tool', 'hr']
+    id: 'workday-ai',
+    name: 'Workday (AI features)',
+    description: 'An enterprise cloud-based HR and finance platform with AI integrated across talent management, workforce planning, and HR automation.',
+    category: 'human-resources',
+    url: 'https://www.workday.com/en-us/products/human-capital-management/overview.html',
+    pricing: 'enterprise',
+    keywords: ['hr software', 'hcm', 'talent management', 'workforce planning', 'hr automation', 'enterprise hr', 'ai in hr']
   },
   {
-    id: 'hr-tool2',
-    name: 'Human Resources Tool 2',
-    description: 'An example AI tool for human resources purposes.',
-    category: 'hr',
-    url: 'https://example.com/hr-tool2',
-    pricing: 'freemium',
-    keywords: ['human resources', 'ai', 'tool', 'hr']
+    id: 'hirevue',
+    name: 'HireVue',
+    description: 'An AI-powered hiring platform that uses video interviews and assessments to help companies screen and evaluate candidates more efficiently.',
+    category: 'human-resources',
+    url: 'https://www.hirevue.com/',
+    pricing: 'subscription',
+    keywords: ['recruiting', 'hiring', 'candidate screening', 'video interviews', 'ai assessments', 'talent acquisition']
   },
   {
-    id: 'hr-tool3',
-    name: 'Human Resources Tool 3',
-    description: 'An example AI tool for human resources purposes.',
-    category: 'hr',
-    url: 'https://example.com/hr-tool3',
-    pricing: 'freemium',
-    keywords: ['human resources', 'ai', 'tool', 'hr']
+    id: 'leena-ai',
+    name: 'Leena AI',
+    description: 'An AI-powered employee experience platform providing chatbots, knowledge management, and sentiment analysis to improve employee engagement and support.',
+    category: 'human-resources',
+    url: 'https://leena.ai/',
+    pricing: 'subscription',
+    keywords: ['employee experience', 'hr chatbot', 'employee engagement', 'sentiment analysis', 'hr automation', 'internal communications']
   },
   {
-    id: 'hr-tool4',
-    name: 'Human Resources Tool 4',
-    description: 'An example AI tool for human resources purposes.',
-    category: 'hr',
-    url: 'https://example.com/hr-tool4',
-    pricing: 'freemium',
-    keywords: ['human resources', 'ai', 'tool', 'hr']
+    id: 'visier',
+    name: 'Visier',
+    description: 'A leader in AI-driven workforce analytics and planning, providing insights into employee retention, diversity, performance, and future talent needs.',
+    category: 'human-resources',
+    url: 'https://www.visier.com/',
+    pricing: 'subscription',
+    keywords: ['workforce analytics', 'hr analytics', 'predictive hr', 'employee retention', 'talent analytics', 'workforce planning']
   },
   {
-    id: 'hr-tool5',
-    name: 'Human Resources Tool 5',
-    description: 'An example AI tool for human resources purposes.',
-    category: 'hr',
-    url: 'https://example.com/hr-tool5',
-    pricing: 'freemium',
-    keywords: ['human resources', 'ai', 'tool', 'hr']
+    id: 'textio',
+    name: 'Textio',
+    description: 'Uses AI to analyze and improve the language of job descriptions and other recruitment content to attract more diverse candidates and reduce bias.',
+    category: 'human-resources',
+    url: 'https://textio.com/',
+    pricing: 'subscription',
+    keywords: ['recruitment marketing', 'bias reduction', 'inclusive language', 'job descriptions', 'employer branding', 'diversity and inclusion']
   },
   // Chat & Assistants
   {
